@@ -4,7 +4,10 @@ import PropTypes from 'prop-types'
 import { cloneDeep, isEqual } from 'lodash'
 
 // Utility methods.import fake from '../../fake'
-import utils from '@t7/utils'
+import {
+  bind,
+  unique
+} from '@t7/utils'
 
 // UI Components.
 import AccordionHeader from './template_header'
@@ -17,7 +20,7 @@ class Accordion extends React.Component {
     super(props)
 
     // Bind context.
-    utils.bind(this)
+    bind(this)
 
     // Get default state.
     this.defaultState()
@@ -26,7 +29,7 @@ class Accordion extends React.Component {
   // Set default state.
   defaultState () {
     this.state = {
-      id: this.props.id || utils.unique(),
+      id: this.props.id || unique(),
       selected: this.props.selected
     }
   }

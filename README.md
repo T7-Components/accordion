@@ -9,10 +9,15 @@ By default accordion areas are collapsed. To render an area open, pass an object
 
 ## Usage
 ```js
-import Accordion from '@t7/accordion'
+import Accordion, { AccordionPanel } from '@t7/accordion'
 import '@t7/accordion/dist/index.css'
 ```
 ```js
+/* indicate the selected item */
+let selected = {
+  0: true
+}
+
 /* create a "handler" if your appliction requires additional processing when tabs are selected */
 const handleClick = (e, index, label, selected) => {
   <do something interesting>
