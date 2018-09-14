@@ -1,4 +1,4 @@
-# accordion
+# t7/accordion
 
 Create an 'accordion' style component from a single structure
 
