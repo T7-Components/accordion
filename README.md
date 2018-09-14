@@ -7,6 +7,11 @@ This component functions similarly to `<AccordionMulti/>` except that it only al
 By default accordion areas are collapsed. To render an area open, pass an object with the corresponding index set to `true`.
 
 
+## Installation
+```js
+npm install @t7/accordion --save-dev
+```
+
 ## Usage
 ```js
 import Accordion, { AccordionPanel } from '@t7/accordion'
