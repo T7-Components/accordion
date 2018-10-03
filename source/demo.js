@@ -17,23 +17,40 @@ class Demo extends React.Component {
     }
     // Expose UI.
     return (
-      <Accordion selected={selected} handleClick={() => {}}>
-        <AccordionPanel label='Item 1'>
-          <p>
-            Content for "Item 1"
-          </p>
-        </AccordionPanel>
-        <AccordionPanel label='Item 2'>
-          <p>
-            Content for "Item 2"
-          </p>
-        </AccordionPanel>
-        <AccordionPanel label='Item 3'>
-          <p>
-            Content for "Item 3"
-          </p>
-        </AccordionPanel>
-      </Accordion>
+      <React.Fragment>
+        <h1>@t7/render</h1>
+
+        <p>
+          <a href='https://github.com/t7-components/accordion/blob/master/source/demo.js'>
+            View "demo.js" on GitHub
+          </a>
+        </p>
+
+        <hr />
+
+        <h2>
+          Using &#60;Accordion&#62; as a container and &#60;AccordionPanell&#62; for content
+        </h2>
+        <h3>(For demonstration purposes Item 2 has been pre-selected)</h3>
+
+        <Accordion selected={selected} handleClick={() => {}}>
+          <AccordionPanel label='Item 1'>
+            <p>
+              Content for "Item 1"
+            </p>
+          </AccordionPanel>
+          <AccordionPanel label='Item 2'>
+            <p>
+              Content for "Item 2"
+            </p>
+          </AccordionPanel>
+          <AccordionPanel label='Item 3'>
+            <p>
+              Content for "Item 3"
+            </p>
+          </AccordionPanel>
+        </Accordion>
+      </React.Fragment>
     )
   }
 }
