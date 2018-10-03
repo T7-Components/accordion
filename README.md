@@ -8,7 +8,7 @@ By default accordion areas are collapsed. To render an area open, pass an object
 
 
 ## Installation
-```js
+```sh
 npm install @t7/accordion --save
 ```
 
