@@ -29,7 +29,7 @@ class Demo extends React.Component {
         <hr />
 
         <h2>
-          Using &#60;Accordion&#62; as a container and &#60;AccordionPanell&#62; for content
+          Using &#60;Accordion&#62; as a container and &#60;AccordionPanel&#62; for content
         </h2>
         <h3>(For demonstration purposes Item 2 has been pre-selected)</h3>
 
