@@ -18,7 +18,7 @@ class Demo extends React.Component {
     // Expose UI.
     return (
       <React.Fragment>
-        <h1>@t7/render</h1>
+        <h1>@t7/accordion</h1>
 
         <p>
           <a href='https://github.com/t7-components/accordion/blob/master/source/demo.js'>
