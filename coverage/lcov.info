@@ -1,5 +1,5 @@
 TN:
-SF:/Users/tandemseven/T7/t7-components/accordion/source/index.js
+SF:/Users/tandemseven/projects/components/accordion/source/index.js
 FN:18,(anonymous_0)
 FN:30,(anonymous_1)
 FN:38,(anonymous_2)
@@ -77,7 +77,7 @@ BRF:14
 BRH:7
 end_of_record
 TN:
-SF:/Users/tandemseven/T7/t7-components/accordion/source/template_header.js
+SF:/Users/tandemseven/projects/components/accordion/source/template_header.js
 FN:10,(anonymous_0)
 FN:19,(anonymous_1)
 FN:41,(anonymous_2)
@@ -120,7 +120,7 @@ BRF:6
 BRH:3
 end_of_record
 TN:
-SF:/Users/tandemseven/T7/t7-components/accordion/source/template_panel.js
+SF:/Users/tandemseven/projects/components/accordion/source/template_panel.js
 FNF:0
 FNH:0
 LF:0
