@@ -1,6 +1,6 @@
 # t7/accordion
 
-Create an 'accordion' style component from a single structure
+Create an 'accordion' style React component from a single structure
 
 This component functions similarly to `<AccordionMulti/>` except that it only allows for one area to be expanded at a time.
 
